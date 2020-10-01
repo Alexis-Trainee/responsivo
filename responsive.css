@@ -1,206 +1,295 @@
 /* @media only screen and (max-device-width: 500px) { */
-    * {
-        margin: 0px;
-        padding: 0px;
-    }
-
-    body {
-        background-color:#000;
-    }
-
-    .background-image-box {
-        position: relative;
-        margin: 0 auto;
-        width: 100%;
-        height: 500px;
-        background-size: cover;
-        background-image: url("/home/alexis/Documentos/site-responsivo/responsivo1/imagens/bg.jpg");
-
-    } 
-
-    #background-image { 
-        width: 99.9%;
-        height: 99.9%;
-    } 
-
-    .x {
-        margin: 0 auto;
-        position: relative;
-        /* border: 1px solid #4a2222; */
-        width: 100%;
-        height: 45px;
-        margin-top: -428px;
-    }
-
-    .y {
-        position: absolute;
-        margin: 0 45%;
-        width: 11%;
-        height: 41px;
-        display: inline-block
-    }
-
-    .subtitle {
-        color: white;
-        font-size: min(1.125em, 5vw);
-        text-align: center;
-        position: relative;
-        line-height: 10px;
-        /* top: -413px; */
-    }
-    .subtitle-money {
-        color: white;
-        text-align: center;
-        position: relative;
-        /* line-height: 6px; */
-        font-size: min(2.5em, 19vw);
-        /* top:-409px; */
-        margin: -2px auto;
-    }
-
-    span {
-        color: #e8a83f;
-    }
-
-    .video-action {
-        /* border: 1px solid orange; */
-        height: 245px;
-        position: relative;
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
-        top: 4px;
-    }
-
-    .video {
-        display: block;
-        width: 40%;
-        height: 100%;
-        margin-left: auto;
-        margin-right: auto;
-        border-radius: 10px;
-    }
-
-    .button-pay {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        max-width: 280px;
-        height: 60px;
-        background: #36ff00;
-        border-radius: 30px;
-        font: 1em "Roboto Mono Bold", sans-serif;
-        line-height: 2.25em;
-        text-transform: uppercase;
-        color: #000;
-        box-shadow: 0px 0px 43px rgba(54,255,0,.6), 0px 0px 180px 10px rgb(54,255,0);
-        transition: background .3s ease;
-        margin-top: 19px;
-        margin-left: auto;
-        margin-right: auto;
-        font-weight: bold;
-        animation: button-grow 2s infinite;
-    }
-
-    @keyframes button-grow {
-        0% {
-            transform: scale(1);
-        }
-        50% {
-            transform: scale(1.2);
-        }
-        100% {
-            transform: scale(1);
-        }
-    }
-
-    .button-pay:hover {
-        background-color: #ff7600;
-        box-shadow: 0px 0px 43px rgba(255,118,0,.6), 0px 0px 180px 10px rgb(255,118,0);
-
-    }
-
-    .box-container-mother {
-        /* border: 1px solid white; */
-        /* height:1656px; */
-        margin: 47px 0;
-    }
-
-    i {
-        color:white;
-    }
-
-    p#b {
-        color: white;
-        margin: -16px 0 0 25px;
-        line-height: 0.9em;
-    }
-
-    span#b {
-        color: white;
-    }
-
-    nav {
-        display: flex;
-        width: 100%;
-        font-size: 19px;
-    }
-
-    ul {
-        display: flex;
-        margin: 9px auto 82px auto;
-    }
-
-    li {
-        padding-right: 56px;
-    }
-
-    .subtitle2 {
-        color: white;
-        text-align: center;
-        font-size: 3em;
-    }
-
-    .itens {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        margin-top: -5px;
-    }
-
-    .itens li {
-        flex: 1 1 380px;
-        max-width: 380px;
-        margin: 93px 10px 0 10px;
-    }
-
-    .itens li span {
-        display: block;
-        font: 6.25em "Roboto Mono Regular", sans-serif;
-        color: #e8a83f;
-        margin: -71px 0 0 14px;
-    }         
-    .itens li div {
-        border-radius: 10px;
-        overflow: hidden;
-    }
-
-    .itens li h3 {
-        font: 1.8399999em "Roboto Bold", sans-serif;
-        line-height: 1.2em;
-        color: #fff;
-        margin-top: 2px;
-    }
-/* } */
- .box-persona {
-     border: solid 2px white;
-    width: auto;
-    height: 800px;
-background-image: url("imagens/bg2.jpg")
+* {
+    margin: 0px;
+    padding: 0px;
 }
 
-@media only screen and (max-device-width: 1400px) {
+body {
+    background-color:#000;
+}
+
+.background-image-box {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-image: url("/home/alexis/Documentos/site-responsivo/responsivo1/imagens/bg.jpg");
+
+} 
+
+#background-image { 
+    width: 99.9%;
+    height: 99.9%;
+} 
+
+.x {
+    margin: 0 auto;
+    position: relative;
+    /* border: 1px solid #4a2222; */
+    width: 100%;
+    height: 45px;
+    margin-top: -428px;
+}
+
+.y {
+    position: absolute;
+    margin: 0 45%;
+    width: 11%;
+    height: 41px;
+    display: inline-block
+}
+
+.subtitle {
+    color: white;
+    font-size: min(1.125em, 5vw);
+    text-align: center;
+    position: relative;
+    line-height: 10px;
+    /* top: -413px; */
+}
+.subtitle-money {
+    color: white;
+    text-align: center;
+    position: relative;
+    /* line-height: 6px; */
+    font-size: min(2.5em, 19vw);
+    /* top:-409px; */
+    margin: -2px auto;
+}
+
+span {
+    color: #e8a83f;
+}
+
+.video-action {
+    /* border: 1px solid orange; */
+    height: 245px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    top: 4px;
+}
+
+.video {
+    display: block;
+    width: 40%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+.button-pay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 280px;
+    height: 60px;
+    background: #36ff00;
+    border-radius: 30px;
+    font: 1em "Roboto Mono Bold", sans-serif;
+    line-height: 2.25em;
+    text-transform: uppercase;
+    color: #000;
+    box-shadow: 0px 0px 43px rgba(54,255,0,.6), 0px 0px 180px 10px rgb(54,255,0);
+    transition: background .3s ease;
+    margin-top: 19px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: bold;
+    animation: button-grow 2s infinite;
+}
+
+@keyframes button-grow {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.button-pay:hover {
+    background-color: #ff7600;
+    box-shadow: 0px 0px 43px rgba(255,118,0,.6), 0px 0px 180px 10px rgb(255,118,0);
+
+}
+
+.box-container-mother {
+    /* border: 1px solid white; */
+    /* height:1656px; */
+    margin: 47px 0;
+}
+
+i {
+    color:white;
+}
+
+p#b {
+    color: white;
+    margin: -16px 0 0 25px;
+    line-height: 0.9em;
+}
+
+span#b {
+    color: white;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    font-size: 19px;
+}
+
+ul {
+    display: flex;
+    margin: 9px auto 82px auto;
+}
+
+li {
+    padding-right: 56px;
+}
+
+.subtitle2 {
+    color: white;
+    text-align: center;
+    font-size: 3em;
+}
+
+.itens {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: -5px;
+}
+
+.itens li {
+    flex: 1 1 380px;
+    max-width: 380px;
+    margin: 93px 10px 0 10px;
+}
+
+.itens li span {
+    display: block;
+    font: 6.25em "Roboto Mono Regular", sans-serif;
+    color: #e8a83f;
+    margin: -71px 0 0 14px;
+}         
+.itens li div {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.itens li h3 {
+    font: 1.8399999em "Roboto Bold", sans-serif;
+    line-height: 1.2em;
+    color: #fff;
+    margin-top: 2px;
+}
+/* }------------------------------------------------------------------------------------------------------------------------------------ */
+
+.box-persona {
+    border: solid 2px white;
+    padding: 150px 0;
+    position: relative;
+    background-image: url("imagens/bg2.jpg");
+    background-position: 50%;
+    background-repeat: no-repeat;
+
+}
+
+.box-persona img {
+align-left: 50px;
+}
+
+.container-pain-persona {
+    /* border: 1px solid orange; */
+    max-width: 1220px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.pains {
+    display: flex;
+    margin: 0 10px;
+    position: relative;
+    /* border: 1px solid green; */
+}
+
+
+.in-pain {
+flex: 1;
+    padding: 86px 79px;
+    border: solid 0.8px #453b2b;
+    border-radius: 10px;
+    display: block;
+}
+
+.pains>.in-pain:first-child {
+border-top-right-radius: 0;
+    border-right: none;
+    border-bottom-right-radius: 0;
+}
+
+.pains>.in-pain:last-child {
+border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-left: solid 0.5px;
+    border-color: #453b2b;
+}
+
+
+.dreams {
+list-style:none;
+    color: white;
+    display: inline-block;
+    font-size: 1.5em;
+    font-weight: bold;
+    font-family: monospace;
+}
+
+.h-iii {
+font-size: 3em;
+    color: #e8a83f;
+}
+
+.box-persona .container-pain-persona > .pains::before {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 150px;
+    background: #453b2b;
+    position: absolute;
+    left: calc(50% - 1px);
+    top: -150px;
+}
+.box-persona .container-pain-persona > .pains::after {
+    content: "";
+    display: block;
+    width: 1px;
+    height: 150px;
+    background: #453b2b;
+    position: absolute;
+    left: calc(50% - 1px);
+    bottom: -150px;
+}
+
+
+@media only screen and (max-device-width: 800px) {
+
+    .pains {
+    display: block;
+    }
+
+.dreams {
+font-size:3em; 
+}
 
 }
 
@@ -209,11 +298,11 @@ background-image: url("imagens/bg2.jpg")
 }
 
 @media only screen and (max-device-width: 768px) {
-.box-persona {
-width: 100%;
-max-width: unset;
-flex: unset;
-}
+    .box-persona {
+        width: 100%;
+        max-width: unset;
+        flex: unset;
+    }
 
 }
 
