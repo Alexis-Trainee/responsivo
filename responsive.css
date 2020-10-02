@@ -195,7 +195,7 @@ li {
 /* }------------------------------------------------------------------------------------------------------------------------------------ */
 
 .box-persona {
-    border: solid 2px white;
+
     padding: 150px 0;
     position: relative;
     background-image: url("imagens/bg2.jpg");
@@ -205,7 +205,7 @@ li {
 }
 
 .box-persona img {
-align-left: 50px;
+    align-left: 50px;
 }
 
 .container-pain-persona {
@@ -224,7 +224,7 @@ align-left: 50px;
 
 
 .in-pain {
-flex: 1;
+    flex: 1;
     padding: 86px 79px;
     border: solid 0.8px #453b2b;
     border-radius: 10px;
@@ -232,13 +232,13 @@ flex: 1;
 }
 
 .pains>.in-pain:first-child {
-border-top-right-radius: 0;
+    border-top-right-radius: 0;
     border-right: none;
     border-bottom-right-radius: 0;
 }
 
 .pains>.in-pain:last-child {
-border-top-left-radius: 0;
+    border-top-left-radius: 0;
     border-bottom-left-radius: 0;
     border-left: solid 0.5px;
     border-color: #453b2b;
@@ -246,7 +246,7 @@ border-top-left-radius: 0;
 
 
 .dreams {
-list-style:none;
+    list-style:none;
     color: white;
     display: inline-block;
     font-size: 1.5em;
@@ -255,7 +255,7 @@ list-style:none;
 }
 
 .h-iii {
-font-size: 3em;
+    font-size: 3em;
     color: #e8a83f;
 }
 
@@ -281,40 +281,346 @@ font-size: 3em;
 }
 
 
+/*--------------------------------------------------------------------------depositions---------------------------------------------------*/
+.depositions1 {
+    background-color: #f7fafc;
+}
+
+.depositions1 .box1 {
+    width: 100%;
+    max-width: 1820px;
+}
+
+.box1 {
+
+}
+
+.automatic-pilot {
+    font: 2.25em "Roboto Bold", sans-serif;
+    line-height: 1.333333333333333em;
+    text-align: center;
+    text-transform: uppercase;
+    color: #e8a83f;
+    margin: -5px 10px 0 10px;
+}
+
+.make-money {
+    font: 1.5em "Roboto Mono Regular", sans-serif;
+    line-height: 2em;
+    text-align: center;
+    margin: 0 10px;
+}
+
+.depositions1 .itens1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.itens1 {
+    font-size: 1em;
+    font-weight: 400;
+    list-style: none;
+}
+
+.depositions1 .itens1 li {
+    flex: 1 1 280px;
+    max-width: 280px;
+    margin: 10px;
+}
+
+.itens1 li img {
+    border-radius: 10px;
+    display: block;
+    max-width: 100%;
+}
+.box-shadow {
+}
+
+.itens1 li img {
+    overflow: hidden;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    box-shadow: 0.3s;
+}
+
+.itens1 li:hover img {
+    /* -moz-transform: scale(1.1); */
+    /* -webkit-transform: scale(1.1); */
+    /* transform: scale(1.1); */
+    box-shadow: 0px 20px 50px 0 rgba(209,215,224,1);
+    transform: translate3d(0,-20px,0);
+}
+
+.depositions2 {
+    padding: 135px 0 354px 0;
+    margin: -85px 0 0 0;
+    background-color: #f7fafc;
+}
+
+.sub-title-depositions {
+    font: 1.5em "Roboto Mono Regular", sans-serif;
+    line-height: 2em;
+    text-align: center;
+    margin: 0 10px;
+}
+
+.question-title {
+    color: #000;
+    text-transform: none;
+    font: 2.25em "Roboto Bold", sans-serif;
+    line-height: 1.333333333333333em;
+    text-align: center;
+    margin: -5px 10px 0 10px;
+    font-weight: bold;
+}
+
+.depositions2 .box1  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.video {
+    width: 393px;
+    height: 222px;
+}
+
+.biography {
+    transform: translate3d(0,-253.5px,0);
+    position: relative;
+}
+
+.box2 {
+    max-width: 1220px;
+    margin: 0 auto;
+    padding: 0 10px;
+    position: relative;
+}
+
+.biography .box2 .box-of-image:first-child {
+    margin: 0 10px;
+    display: flex;
+    background: #141413;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.biography .box2 .box-of-image .text {
+    flex: 1 1;
+}
+
+.sub-title-mentor {
+    font: 1.125em "Roboto Mono Regular", sans-serif;
+    line-height: 1.333333333333333em;
+    color: #fff;
+    text-align: center;
+}
+
+.title-mentor {
+    font: 2.25em "Roboto Mono Medium", sans-serif;
+    line-height: 1.333333333333333em;
+    color: #e8a83f;
+    margin: 34px 0 36px 0;
+    text-align: center;
+}
+
+.biography p {
+    font: 1.125em "Roboto Mono Regular", sans-serif;
+    line-height: 1.333333333333333em;
+    color: #fff;
+}
+
+.brain {
+    background-color: orange;
+    width: 86px;
+    height: 81px;
+    border-radius: 50%;
+    position: relative;
+    top: 200px;
+    left: -43px;
+}
+
+.brain-image {
+    width: 67px;
+    margin: 4px 10px;
+    position: fixed;
+}
+
+.the-text {
+    margin: 53px 49px 0px 49px;
+    text-align: justify;
+}
+/*----------------------------------------------------------------CONTENT(CONTEÚDO)---------------------------------------------------------*/
+.content {
+    padding-bottom: 140px;
+}
+
+.box3 {
+    max-width: 1220px;
+    margin: 0 auto;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+.title-content {
+    text-transform: uppercase;
+    text-align: center;
+    margin: -113px 10px 46px 10px;
+    font: 3em "Roboto Bold", sans-serif;
+    line-height: 1.25em;
+    color: #fff;
+}
+
+.content .itens2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.itens2 {
+    font-size: 1em;
+    font-weight: 400;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.itens2 li {
+    flex: 1 1 380px;
+    max-width: 380px;
+    border: 1px solid #453b2b;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 10px;
+    padding: 44px 30px 40px 30px;
+}
+
+.content .box3 .itens2 li  p {
+    text-align: center;
+    font: 1em "Roboto Mono Regular", sans-serif;
+    line-height: 1.875em;
+    color: #fff;
+}
+
+.itens2 li span{
+    display: block;
+    font: 1.125em "Roboto Mono Regular", sans-serif;
+    line-height: 1.333333333333333em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #e8a83f;
+}
+
+#title3 {
+    font: 2.25em "Roboto Mono Regular", sans-serif;
+    line-height: 1.333333333333333em;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+}
+
+/*----------------------------------------------------------------@media--------------------------------------------------------------------*/
 @media only screen and (max-device-width: 800px) {
 
+    .button-pay {
+        max-width: 752px;
+        font-size: 47px;
+        height: 139px;
+        border-radius: 110px;
+    }
+
     .pains {
-    display: block;
+        display: block;
     }
 
-.dreams {
-font-size:3em; 
-}
+    .dreams {
+        font-size:3em; 
+    }
 
-}
+    .iten li :first-child{
+        height: 2em;
+        width:100%;
+    }
 
-@media only screen and (max-device-width: 1024px) {
+    .itens1 li:nth-child(2) {
+        display: none;
+    }
 
-}
+    .itens1 li:last-child {
+        display:none;
+    }
 
-@media only screen and (max-device-width: 768px) {
-    .box-persona {
+    .sub-title-depositions {
+        font-size: 70px;
+    }
+
+    .question-title {
+        font-size: 114px;
+    }
+
+    .video {
+        width: 650px;
+        height:390px;
+    }
+
+    .depositions2 .box1 .itens1 li:last-child {
+        display: block;
+        margin: 445px 0 0 -707px;
+    }
+
+    .biography .box2 .box-of-image .text: nth-of-type(2) .box-of-image {
+        padding: 75px 45px 75px 45px;
+    } 
+
+    .biography .box2 .box-of-image:first-child {
+        border-radius: 10px;
+        overflow: hidden;
+        display: block;
+    }
+
+    .motorcyclist {
         width: 100%;
-        max-width: unset;
-        flex: unset;
     }
 
-}
-
-@media only screen and (max-device-width: 375px) {
-    .itens li {
-        width: 100%;
-        max-width: unset;
-        flex: unset;
+    .biography .box2 .brain{
+        margin: 0 auto;
+        top: -70px;
+        width:140px;
+        height: 140px;
     }
 
-    .itens li img {
-        width: 100%;
+    .brain-image {
+        width: 120px;
     }
 
-}  
+    .content .itens2 {
+        flex-wrap: wrap;
+        justify-content: center;
+        display: block;
+        margin: 0 0 0 266px;
+
+    }
+    @media only screen and (max-device-width: 768px) {
+        .box-persona {
+            width: 100%;
+            max-width: unset;
+            flex: unset;
+        }
+    }
+    @media only screen and (max-device-width: 375px) {
+        .itens li {
+            width: 100%;
+            max-width: unset;
+            flex: unset;
+        }
+
+        .itens li img {
+            width: 100%;
+        }
+
+    }
+
+
