@@ -522,6 +522,374 @@ li {
     text-align: center;
 }
 
+.bonus {
+    padding: 136px 0 107px 0;
+    border-radius: 100px;
+    background: linear-gradient(180deg, #460775, #350780);
+    position: relative;
+}
+
+.bonus::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 22px;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 50%;
+    transform: translate3d(-50%,-50%,0);
+}
+
+.bonus .plus {
+    background: #ff0500;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate3d(-50%,-50%,0);
+    width: 80px;
+    height: 80px;
+    box-shadow:  0px 0px 43px rgba(255,5,0,.5), 0px 0px 250px 40px rgba(255,5,0,.35);
+} 
+
+.container-bonus {
+    max-width: 1220px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.bonus h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font: 3em "Roboto Bold", sans-serif;
+    line-height: 1.25em;
+    margin: 0 10px;
+    color: #fff;
+}
+
+.bonus .itens-of-bonus {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 82px;
+    font-size: 1em;
+    font-weight: 400;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+.bonus .itens-of-bonus li {
+    flex: 1 1 380px;
+    max-width: 380px;
+    border: 1px solid #4d09ba;
+    border-radius: 10px;
+    margin: 43px 10px;
+    padding: 60px 20px 40px 20px;
+    position: relative;
+}
+
+.bonus .itens-of-bonus li {
+    flex: 1 1 380px;
+    max-width: 380px;
+    border: 1px solid #4d09ba;
+    border-radius: 10px;
+    margin: 43px 10px;
+    padding: 60px 20px 40px 20px;
+    position: relative;
+}
+
+.bonus .itens-of-bonus li span {
+    display: block;
+    font: 6.25em "Roboto Mono Regular", sans-serif;
+    color: #ff0500;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate3d(-50%,-50%,0);
+}
+
+.bonus .itens-of-bonus li h3 {
+    font: 1.125em "Roboto Bold", sans-serif;
+    line-height: 1.333333333333333em;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 36px;
+}
+
+.bonus .itens-of-bonus li p {
+    font: 1em "Roboto Mono Regular", sans-serif;
+    line-height: 1.875em;
+    color: #fff;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.bonus h2 span {
+    color: #ff0500;
+}
+
+.faq {
+    background: #fff;
+    padding: 136px 0 146px 0;
+}
+
+.container-faq {
+    max-width: 1220px;
+    margin: 0 auto;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+.faq h2 {
+    text-transform: uppercase;
+    margin-bottom: 91px;
+    text-align: center;
+    font: 3em "Roboto Bold", sans-serif;
+    line-height: 1.25em;
+    margin: 0 10px;
+}
+
+.faq .questions-faq {
+    margin: 0 10px;
+    font-size: 1em;
+    font-weight: 400;
+    list-style: none;
+    box-sizing: border-box;
+    display: block;
+}
+
+.faq .questions-faq li {
+    margin-top: 57px;
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+.faq .questions-faq li h3 {
+    font: 1.875em "Roboto Mono Bold", sans-serif;
+    line-height: 1em;
+    text-transform: uppercase;
+    margin-bottom: 19px;
+    text-align: center;
+}
+
+.faq .questions-faq li p {
+    font: 1.125em "Roboto Mono Regular", sans-serif;
+    line-height: 1.666666666666667em;
+    color: #000;
+    text-align: center;
+}
+
+.footer {
+    box-sizing: border-box;
+    display: block;
+}
+
+.footer .container-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px
+}
+
+.container-footer {
+    max-width: 1220px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.footer p {
+    font: .875em "Roboto Mono Regular", sans-serif;
+    line-height: 2.142857142857143em;
+    text-align: center;
+    color: #545454;
+    margin: 0 10px;
+}
+
+.offer {
+    margin-top: -45px;
+    padding: 0 0 146px 0;
+    box-sizing: border-box;
+    display: block;
+}
+
+.offer .container-offer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-offer {
+    max-width: 1220px;
+    margin: 0 auto;
+    padding: 0 10px;
+    box-sizing: border-box;
+    vertical-align: baseline;
+}
+
+.offer h2 {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.title-offer {
+    font: 3em "Roboto Bold", sans-serif;
+    line-height: 1.25em;
+    margin: 57px 10px;
+    color: #fff;
+    box-sizing: border-box;
+}
+
+.title-offer span {
+    color: #e8a83f;
+
+    box-sizing: border-box;
+}
+
+.offer .investiment {
+    display: flex;
+    align-items: center;
+    margin: -61px 10px 0 10px;
+}
+
+.offer .investiment span {
+    display: block;
+    font: 4.5em "Roboto Mono Bold", sans-serif;
+    line-height: 0.8333333333333333em;
+    text-align: right;
+    color: #e8a83f;
+    margin-right: 27px;
+    box-sizing: border-box;
+    vertical-align: baseline;
+}
+
+.offer .investiment div {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.offer .investiment sup:nth-of-type(1) {
+    left: 5px;
+}
+
+.offer .investiment sup {
+    position: relative;
+    top: 2px;
+    font: 3em "Roboto Mono Bold", sans-serif;
+    color: #fff;
+}
+
+.offer .investiment h3 {
+    font: 18.75em "Roboto Mono Bold", sans-serif;
+    letter-spacing: -0.05em;
+    position: relative;
+    top: -6px;
+    color: #fff;
+}
+
+.offer .investiment sup:nth-of-type(2) {
+    right: -11px;
+}
+
+.offer .container-offer> p {
+    font: 1em "Roboto Mono Bold", sans-serif;
+    text-transform: uppercase;
+    margin: -41px 10px 0 10px;
+    color: #fff;
+    box-sizing: border-box;
+}
+
+
+.offer .button-pay{
+    width: 470px;
+    max-width: unset;
+}
+
+.offer-image {
+
+}
+
+.offer .pay-forms {
+    display: inline-flex;
+    position: relative;
+    margin: 0 auto;
+    list-style: none;
+}
+
+.offer .pay-forms li {
+
+}
+
+.offer .warranty p {
+    font: 1.125em "Roboto Mono Regular", sans-serif;
+    line-height: 1.666666666666667em;
+    text-align: center;
+    color: #fff;
+    box-sizing: border-box;
+}
+
+.image-warranty {
+    position: relative;
+    margin: 0 auto;
+    display: block;
+}
+
+.doubt {
+    overflow: hidden;
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+    padding: 150px 0 45px 0;
+    background-image: url("imagens/bg3b.jpg");
+
+}
+
+.doubt .doubt-container {
+    display: flex;
+    position: relative;
+}
+
+.doubt-container {
+    max-width: 1220px;
+    margin: 0 auto;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+.doubt .doubt-container div:nth-of-type(1) {
+    max-width: none;
+}
+
+.doubt .doubt-container div {
+    margin: 0 10px;
+    box-sizing: border-box;
+}
+
+.doubt h2{
+    font: 1.875em "Roboto Mono Regular", sans-serif;
+    line-height: 1.2em;
+    color: #fff;
+    text-align: center;
+}
+
+.doubt p {
+    margin-top: 30px;
+    font: 1em "Roboto Mono Regular", sans-serif;
+    line-height: 1.875em;
+    color: #fff;
+    text-align: center;
+    font-size: 17px;
+}
+
+.doubt .doubt-image {
+    display: block;
+    max-width: 100%;
+}
 /*----------------------------------------------------------------@media--------------------------------------------------------------------*/
 @media only screen and (max-device-width: 800px) {
 
@@ -603,7 +971,36 @@ li {
         margin: 0 0 0 266px;
 
     }
-    @media only screen and (max-device-width: 768px) {
+
+    .footer p {
+        font-size: 37px;
+        color: white; 
+    }
+
+    .offer {
+        margin-top: -45px;
+        padding: 0 0 146px 0;
+        box-sizing: border-box;
+        display: block;
+    }
+
+    .offer .container-offer p {
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .doubt {
+        padding: 150px 0 45px 0;
+        background-image: url("imagens/bg3b.jpg");
+    }
+
+    .offer .button-pay{
+        width: 100%;
+        max-width: unset;
+        height: 174px;
+    }
+
+    .offer @media only screen and (max-device-width: 768px) {
         .box-persona {
             width: 100%;
             max-width: unset;
